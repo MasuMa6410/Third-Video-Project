@@ -40,11 +40,14 @@
     <link rel="stylesheet" href="./Style/style.css" />
   </head>
   <body>
-    <section>
-      <section class="sidebar">Sidebar</section>
-      <section class="main">
+    <section x-data="toggleSidebar">
+      <section x-cloak class="sidebar" :class="open || 'inactive' ">
+        <i @click="toggle" class="fs-1 bi bi-x"></i>
+        Sidebar
+      </section>
+      <section class="main" :class="open || 'active' ">
         <header>
-          <i class="bi bi-justify fs-3"></i>
+          <i @click="toggle" class="bi bi-justify fs-3"></i>
         </header>
         <div class="content">Content</div>
       </section>
@@ -61,5 +64,17 @@
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
+    <!-- Alpine Data -->
+    <script>
+      document.addEventListener("alpine:init", () => {
+        Alpine.data("toggleSidebar", () => ({
+          open: window.innerWidth <= 992 ? false : true,
+
+          toggle() {
+            this.open = !this.open;
+          },
+        }));
+      });
+    </script>
   </body>
 </html>
