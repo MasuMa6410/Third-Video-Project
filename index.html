@@ -268,7 +268,110 @@
             </div>
           </div>
         </header>
-        <div class="content">Content</div>
+        <div class="content p-2 p-lg-4">
+          <div class="container-fluid">
+            <div class="row gy-4">
+              <div class="col-xl-9">
+                <!-- Stats -->
+                <div class="row g-3">
+                  <div class="col-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <div class="stats-icon bg-purple">
+                              <i class="lh-0 bi bi-eye-fill"></i>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <h6 class="fs-7 text-muted">نمایش پروفایل</h6>
+                            <h6
+                              class="fw-bold mb-0 purecounter"
+                              data-purecounter-start="0"
+                              data-purecounter-end="18600"
+                            >
+                              0
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <div class="stats-icon bg-blue">
+                              <i class="lh-0 bi bi-person-fill"></i>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <h6 class="fs-7 text-muted">لورم ایپسوم</h6>
+                            <h6
+                              class="fw-bold mb-0 purecounter"
+                              data-purecounter-start="0"
+                              data-purecounter-end="126500"
+                            >
+                              0
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <div class="stats-icon bg-green">
+                              <i class="lh-0 bi bi-person-plus-fill"></i>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <h6 class="fs-7 text-muted">لورم ایپسوم</h6>
+                            <h6
+                              class="fw-bold mb-0 purecounter"
+                              data-purecounter-start="0"
+                              data-purecounter-end="95000"
+                            >
+                              0
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <div class="stats-icon bg-red">
+                              <i class="lh-0 bi bi-bookmark-dash-fill"></i>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <h6 class="fs-7 text-muted">لورم ایپسوم</h6>
+                            <h6
+                              class="fw-bold mb-0 purecounter"
+                              data-purecounter-start="0"
+                              data-purecounter-end="452"
+                            >
+                              0
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3"></div>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
 
@@ -283,6 +386,11 @@
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
+    <!-- Pure Counter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
     <!-- Alpine Data -->
     <script>
       document.addEventListener("alpine:init", () => {
