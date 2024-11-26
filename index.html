@@ -367,8 +367,25 @@
                     </div>
                   </div>
                 </div>
+                <!-- Chart -->
+                <div class="row mt-4">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <h5 class="fw-bold mb-0">لورم ایپسوم</h5>
+                      </div>
+                      <div class="card-body">
+                        <div
+                          id="chartdiv"
+                          style="width: 100%; height: 500px"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-xl-3">
+                <!-- Profile -->
                 <div class="card">
                   <div class="card-body p-4 d-flex align-items-center">
                     <img
@@ -406,24 +423,14 @@
     <script>
       new PureCounter();
     </script>
-    <!-- Alpine Data -->
-    <script>
-      document.addEventListener("alpine:init", () => {
-        Alpine.data("toggleSidebar", () => ({
-          open: window.innerWidth <= 992 ? false : true,
-
-          toggle() {
-            this.open = !this.open;
-          },
-        })),
-          Alpine.data("dropdown", () => ({
-            open: false,
-
-            toggle() {
-              this.open = !this.open;
-            },
-          }));
-      });
-    </script>
+    <!-- AmChart.js -->
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <!-- First Chart External -->
+    <script src="./JavaScript/Charts/First Chart/chart1.js"></script>
+    <!-- Alpine -->
+    <script src="./JavaScript/Alpine/alpineComponents.js"></script>
   </body>
 </html>
