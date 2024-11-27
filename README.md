@@ -2,7 +2,7 @@
 
 # webprog.io
 
-Welcome to **webprog.io**, a simple yet effective web development project built using HTML, CSS, and Bootstrap. This project demonstrates fundamental web development techniques and is designed as an introductory exploration into building responsive and visually appealing websites.
+Welcome to **webprog.io**, a simple yet effective web development project built using HTML, CSS, Bootstrap, and JavaScript. This project demonstrates fundamental web development techniques and is designed as an introductory exploration into building responsive, visually appealing, and interactive websites.
 
 ## Table of Contents
 
@@ -22,6 +22,7 @@ Welcome to **webprog.io**, a simple yet effective web development project built 
 - The structure and semantics of HTML.
 - Styling and design using CSS.
 - Responsiveness and layout optimization using Bootstrap.
+- Interactive functionality with JavaScript.
 
 [Check out the live version here!](https://masuma6410.github.io/Second-Video-Project/)
 
@@ -32,12 +33,14 @@ This project serves as an initial step toward mastering web development, focusin
 - **Responsive Design:** Adapts seamlessly to different screen sizes.
 - **User-Friendly Interface:** Clear navigation and intuitive layout.
 - **Custom Styling:** Enhanced with Bootstrap's utility classes for faster development.
+- **Interactive Elements:** JavaScript is used to add necessary interactivity.
 
 ## Technologies Used
 
 - **HTML5:** For structuring the content.
 - **CSS3:** For styling and design.
 - **Bootstrap:** For layout and responsiveness.
+- **JavaScript:** For adding interactive functionality to necessary parts.
 
 ## Setup Instructions
 
@@ -62,20 +65,21 @@ This project is a learning tool and can be used as a reference for:
 - Understanding HTML structure.
 - Practicing CSS styling and layout design.
 - Exploring Bootstrap's responsive design capabilities.
+- Implementing basic interactivity using JavaScript.
 
 ## Screenshots
 
 Here’s a preview of the project:
 
-![webprog.io Homepage](./Images/Screenshots/light-mode.PNG)
+![webprog.io Homepage](./Images/Screenshots/first%20one.PNG)
 
-![webprog.io Homepage](./Images/Screenshots/dark-mode.PNG)
+![webprog.io Homepage](./Images/Screenshots/second%20one.PNG)
 
-![webprog.io Homepage](./Images/Screenshots/map.PNG)
+![webprog.io Homepage](./Images/Screenshots/third%20one.PNG)
 
 ## Future Enhancements
 
-- Add JavaScript for interactive elements.
+- Add more advanced JavaScript functionalities.
 - Incorporate advanced CSS animations.
 - Optimize for accessibility (e.g., ARIA roles, contrast checks).
 - Include backend integration for dynamic content.
@@ -88,4 +92,4 @@ Here’s a preview of the project:
 
 ---
 
-If you'd like further customization, let me know!
+This version integrates the use of JavaScript more explicitly in the project description.
