@@ -24,7 +24,7 @@ Welcome to **webprog.io**, a simple yet effective web development project built 
 - Responsiveness and layout optimization using Bootstrap.
 - Interactive functionality with JavaScript.
 
-[Check out the live version here!](https://masuma6410.github.io/Second-Video-Project/)
+[Check out the live version here!](https://masuma6410.github.io/Third-Video-Project/)
 
 This project serves as an initial step toward mastering web development, focusing on clean code and best practices.
 
